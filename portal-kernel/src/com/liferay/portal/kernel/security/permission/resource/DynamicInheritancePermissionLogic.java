@@ -70,7 +70,7 @@ public class DynamicInheritancePermissionLogic
 			_parentModelResourcePermission.contains(
 				permissionChecker, parent, ActionKeys.ACCESS)) {
 
-			return null;
+			return true;
 		}
 
 		if (_parentModelResourcePermission.contains(
